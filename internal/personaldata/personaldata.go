@@ -6,6 +6,7 @@ type Personal struct {
     // TODO: добавить поля
     Name   string
     Weight float64
+	Height float64
 }
 
 func (p Personal) Print() {
